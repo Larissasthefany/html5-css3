@@ -1,0 +1,23 @@
+    body{
+        font-family: Arial, Helvetica, sans-serif;
+    }
+    
+    div > p{
+        display: none;
+
+        /* A DIV TEM UM FILHO (>) QUE RECEBE UM PARAGRAFO (P) */
+    }
+
+    div:hover > p{
+        display: block;
+        color: white;
+        background-color: red;
+        width: 300px;
+
+        /* ESSA PARTE E PARA MOSTRAR O TEXTO ESCONDIDO */
+    }
+
+    div:hover{
+        color: blue;
+    }
+

@@ -1,0 +1,35 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+a{
+    color: red;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+a:visited{
+    color: darkblue
+    /* PARA QUANDO O SITE FOR VISITADO */
+}
+
+a:hover{
+    text-decoration: underline;
+    color: black;
+}
+
+a:active{
+    color: yellow;
+    /* PARA QUANDO O LINK FOR CLICADO */
+}
+
+a::before{
+    content: '⇒ ';
+    /* COMENTARIO NO INICIO DO LINK OU DE QUALQUER TEXTO */
+}
+
+a::after{
+    content:  '⇐ ';
+}
+
+

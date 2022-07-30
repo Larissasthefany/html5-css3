@@ -1,0 +1,26 @@
+@font-face {
+    font-family: 'Candy' ;
+    src: url('fonts/CandyDisplay.otf') format('opentype'), url('fonts/CandyDisplayRegular.ttf') 
+    format('truetype');
+    font-weight: normal;
+    font-style: normal;
+
+    /* 
+    TIPOS DE FORMAT
+     - OPENTYPE (OTF)
+     - TRUETYPE(TTF)
+     - EMBEDDED-OPENTYPE
+     - TRUETYPE-ATT (APPLE ADVANCED TYPOGRAPHY)
+     - SVG
+    */
+}
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+h1{
+    font-family: 'Candy' , Times, serif;
+    font-weight: normal;
+    font-size: 3em;
+}

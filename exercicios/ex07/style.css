@@ -1,0 +1,10 @@
+*{
+    height: 100%;
+}
+
+body{
+    background-image: linear-gradient(to bottom, #A600CB, #CF01A1, #BE2A5B, #EC511D, #F6B909);  
+    /* ISSO É PARA FAZER UMA COR DEGRADE */
+    background-attachment: fixed;
+    /* PARA O DEGRADER FICAR FIXADO NA TELA */
+}

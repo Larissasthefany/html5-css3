@@ -1,0 +1,12 @@
+div{
+    display: inline-block;
+    background-color: lightgray;
+    text-align: center;
+    height: 200px;
+    width: 200px;
+    border: 1px solid black;
+}
+
+div:hover{
+    background-color: yellow;
+}

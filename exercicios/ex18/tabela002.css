@@ -12,10 +12,11 @@ caption{
 table{
     width: 500px;
     border-collapse: collapse;
+    position: relative;
 }
 
 td, th{
-    border: 1px solid black;
+    border: 1px solid #383838;      /*COLAR O TOPICO NO CONTEUDO*/
     padding: 10px;
 }
 
@@ -23,8 +24,23 @@ td.num{
     text-align: right;
 }
 
+/* tbody >tr:nth-child(odd){
+    background-color: white;  O ODD PODE SER SUBISTITUIDO POR (2N-1) N IRA MUDAR O                            VALOR
+}*/
+
 thead, tfoot{
     background-color: grey;
     color: white;
 }
+
+thead > tr > th{
+    position: sticky;
+    top: -1px;
+    background-color: #383838;
+}
+
+tbody >tr:nth-child(even){      /*O EVEN PODE SER SUBSTITUIDO POR (2N) N IRA MUDAR VALOR */
+    background-color: lightgray;
+}
+
 

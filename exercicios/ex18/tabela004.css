@@ -1,0 +1,23 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+caption{
+    padding: 10px;
+    font-weight: bold;
+    font-size: 1.3em;
+    background-color: #383838;
+    color: white;
+
+}
+
+table{
+    width: 400px;
+    border-collapse: collapse;
+    text-align: center;
+}
+
+th, td{
+    border: 1px solid #383838;
+    padding: 10px;
+}

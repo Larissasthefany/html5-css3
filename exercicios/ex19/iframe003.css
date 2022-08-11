@@ -1,0 +1,9 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+iframe#tela{
+    width: 97vw;
+    border: 2px solid black;
+    height: 400px;
+}

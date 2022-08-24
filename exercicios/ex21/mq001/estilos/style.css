@@ -1,0 +1,44 @@
+@charset "UTF-8";
+
+/* ESTILO PARA TELAS  */
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+html{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1em;
+}
+
+header{
+    background-color: #383838;
+}
+
+header> h1{
+    text-align: center;
+}
+menu ul{
+    list-style-type: none;
+    background-color: #616060;
+}
+
+menu li{
+    display: inline-block;
+    padding: 7px;
+    background-color: rgb(49, 48, 48);
+    color: white;
+}
+
+article{
+    width: 600px;
+    display: block;
+    margin: auto;
+}
+
+menu 
+
+article{
+    display: block;
+    margin: auto;
+}
